@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.woodlee.mt_1_u3031423.AddImageActivity"
+    tools:showIn="@layout/activity_add_image"
+    android:paddingLeft="@dimen/std_layout_padding"
+    android:paddingRight="@dimen/std_layout_padding"
+    android:paddingTop="@dimen/std_layout_padding">
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_text"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/h2"
+        android:layout_margin="@dimen/std_textbox_marging"
+        android:padding="@dimen/std_textbox_padding"
+        />
+
+    <Button
+        android:id="@+id/capture"
+        android:text="CAPTURE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/instructions"
+        android:layout_toLeftOf="@+id/centrePiece"
+        android:layout_margin="15dp"
+        android:onClick="capture"
+        />
+
+    <TextView
+        android:id="@+id/centrePiece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/instructions"
+        />
+    <Button
+        android:id="@+id/load"
+        android:text="LOAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/instructions"
+        android:layout_toRightOf="@+id/centrePiece"
+        android:layout_margin="15dp"
+        android:onClick="load"
+
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/load"
+        android:layout_margin="@dimen/std_image_margin"
+        android:padding="@dimen/std_image_padding"
+        />
+</RelativeLayout>

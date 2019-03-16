@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MT_1_u3031423</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_view">MT_1_u3031423</string>
+    <string name="title_activity_card_details">MT_1_u3031423</string>
+    <string name="title_activity_edit_card">MT_1_u3031423</string>
+    <string name="title_activity_add_image">MT_1_u3031423</string>
+    <string name="app_title">Mobile technologies(8878) Business Card App</string>
+    <string name="app_intro">The Business Card App allows a user to pick from existing Business Cards and edit the details, or upload a template by camera or download.</string>
+    <string name="instruction_text">Tap Capture to take a phtoto of a Business Card or Tap Load to load one from memory</string>
+    <string name="title_activity_report">Report</string>
+    <string name="my_report">This report identifies the main concepts achieved
+    for the purposes of assignment 1, Mobile Technologies. One key concept that is integral
+    to the implementation is that of Intents. The Business Card App uses both implicit and explicit
+    intents to communicate between modules. Explicit intents are those used to start a know activity whilst the explict
+    can be used when the name of the particular component is unknown.
+
+    The assignment requires the creation and manipulation of databases, this through leveraging existing libaries specificallly
+        SqlLiteOpenHelper. Once the data base has been created it was then possible to leverage the ArrayAdaptor class to define custom versions
+        and populate ListViews. The application also allows for the database to updated by, but not limited to
+        the leveraging of Bundles, which act as way to communicate data to a new activty.
+
+        The application implements menu usage and I have tried to moderate layout inconsistencies by setting global
+        dimensions. Some of these dimensions are similar to that used in HTML such as H1, H2 and paragraph.
+        These dimensions can be found in res/values/dimens.
+
+        Testing has been completed on emulated Nexus 5x and Nexus 6p, API 24.
+        Testing has been completed on Chuwi Vi7, Api 19.
+
+
+
+
+
+    </string>
+
+
+
+
+
+
+</resources>
